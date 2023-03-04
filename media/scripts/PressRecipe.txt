@@ -1,0 +1,114 @@
+module ReloadingPress {
+	imports{
+		Base,
+	}
+
+	recipe Make Lyman T-Mag Reloading Press{
+		MetalPipe = 2,
+		SmallSheetMetal = 5,
+		keep BlowTorch=5,
+
+		OnGiveXP: Give5MWXP,
+		Result: Lyman_TMag,
+		Time: 15.0,
+
+	}
+
+	recipe Make Projectile 5.7mm{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead57,
+		Time: 5.0,
+	}
+
+	recipe Make Projectile 9mm{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead9,
+		Time: 5.0,
+	}
+
+	recipe Projectile 38-Cal{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead38,
+		Time: 5.0,
+	}
+
+
+	recipe Projectile 45-Cal{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead45,
+		Time: 5.0,
+	}
+
+
+	recipe Make Projectile 44-Cal{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead44,
+		Time: 5.0,
+	}
+
+
+	recipe Make Projectile 5.56mm{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead556,
+		Time: 5.0,
+	}
+
+
+	recipe Make Projectile 5.45mm{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead545,
+		Time: 5.0,
+	}
+
+
+	recipe Make Projectile 30-Cal{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead30,
+		Time: 5.0,
+	}
+
+
+	recipe Make Projectile 50-Cal{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead50,
+		Time: 5.0,
+	}
+
+
+	recipe Make Projectile 00-Buckshot{
+		ScrapMetal = 1,
+		keep MetalWorkbench,
+
+		Count: 2,
+		Result: Lead00Buck,
+		Time: 5.0,
+	}
+
+}
